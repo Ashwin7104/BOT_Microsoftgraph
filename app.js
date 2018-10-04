@@ -23,7 +23,7 @@ var connector = new builder.ChatConnector({
     // openIdMetadata: process.env.BotOpenIdMetadata
 });
 
-
+console.log('ashwiun');
 var clientID = process.env.clientID;
 var appSecret = process.env.AppSecret;
 var bot = new builder.UniversalBot(connector, function (session) {
@@ -34,8 +34,8 @@ var bot = new builder.UniversalBot(connector, function (session) {
         else {
             var AuthenticationContext = adal.AuthenticationContext;
             var authorityHostUrl = 'https://login.windows.net';
-            var tenant = 'http://sep007.sharepoint.com/';
-
+            var tenant = 'http://sep007-admin.sharepoint.com/';
+console.log('ashiwn');
             var authoriotyUrl = authorityHostUrl + '/' + tenant;
             var applicationId = clientID;
             var clientSecret = appSecret;
