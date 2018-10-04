@@ -16,6 +16,8 @@
     "botbuilder-azure": "^3.0.4",
     "botbuilder-cognitiveservices": "^1.2.0",
     "botbuilder-teams": "^0.2.2",
+    "dotenv": "^6.0.0",
+    "path": "^0.12.7",
     "restify": "^5.0.0"
   },
   "devDependencies": {
